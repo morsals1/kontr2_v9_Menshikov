@@ -1,6 +1,6 @@
 import kotlinx.coroutines.*
-val a: Graph = Graph()
-fun main(){
+suspend fun main(){
+    val a: Graph = Graph()
     var count = 0
     var exit = 4
     var b = a.repeat()
